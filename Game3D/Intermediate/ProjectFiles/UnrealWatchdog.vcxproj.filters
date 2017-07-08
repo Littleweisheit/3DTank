@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Target.cs" />
+		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealWatchdog\UnrealWatchdog.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{B49ED21C-7A25-4AA0-9483-ADE3E3E70785}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealWatchdog\Private\UnrealWatchdog.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealWatchdog\Private\WatchdogAnalytics.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Private\Linux">
+			<UniqueIdentifier>{2255B4D9-2104-4608-9E12-59E555342FFA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealWatchdog\Private\Linux\UnrealWatchdogMainLinux.cpp">
+			<Filter>Private\Linux</Filter>
+		</ClCompile >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{B0357583-DBE1-4113-8FE8-BF2DABB4FE46}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealWatchdog\Private\Mac\UnrealWatchdogMainMac.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{904EC482-93B2-4D8E-AD04-AEA008CD50D1}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealWatchdog\Private\Windows\UnrealWatchdogMainWindows.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+	</ItemGroup>
+</Project>

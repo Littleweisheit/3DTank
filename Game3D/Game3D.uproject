@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{6CE0D74F-4293-DC6B-3DAF-5CADF04C9247}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Game3D",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

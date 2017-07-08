@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Game3D.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{39AB48ED-D305-4DA0-9B9C-C07362F9AD35}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game3D.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Game3DEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{4BF150BC-7686-462D-8FC4-492E364D91C6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Game3D">
+			<UniqueIdentifier>{2ACB2AF4-83E5-497D-BA7B-9F40B62E7BC8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game3D\Game3D.Build.cs">
+			<Filter>Source\Game3D</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Game3D\Game3D.cpp">
+			<Filter>Source\Game3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game3D\Game3D.h">
+			<Filter>Source\Game3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Game3D\Game3DGameModeBase.cpp">
+			<Filter>Source\Game3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game3D\Game3DGameModeBase.h">
+			<Filter>Source\Game3D</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
