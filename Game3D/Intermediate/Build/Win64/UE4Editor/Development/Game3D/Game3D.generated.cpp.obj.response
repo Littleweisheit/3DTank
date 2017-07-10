@@ -23,6 +23,7 @@
 /w44668
 /I F:\UnrealEngine-4.16.2-release\Engine\Source
 /I E:\Tank\Game3D\Source
+/I E:\Tank\Game3D\Source\Game3D\Public
 /I E:\Tank\Game3D\Intermediate\Build\Win64\UE4Editor\Inc\Game3D
 /I E:\Tank\Game3D\Source\Game3D
 /I F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public

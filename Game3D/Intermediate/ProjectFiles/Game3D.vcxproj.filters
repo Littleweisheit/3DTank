@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Game3D.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{39AB48ED-D305-4DA0-9B9C-C07362F9AD35}</UniqueIdentifier>
+			<UniqueIdentifier>{2D6C8FFB-8F7A-4D32-B696-D443B760793F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Game3D.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{4BF150BC-7686-462D-8FC4-492E364D91C6}</UniqueIdentifier>
+			<UniqueIdentifier>{F62DA447-4E60-4F10-81A0-039048F0F9AC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -24,9 +24,18 @@
 		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
 		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
 		<Filter Include="Source\Game3D">
-			<UniqueIdentifier>{2ACB2AF4-83E5-497D-BA7B-9F40B62E7BC8}</UniqueIdentifier>
+			<UniqueIdentifier>{D7856B1C-D490-4A64-A3E7-91AE3A6D7968}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\Game3D\BattleTankGameMod.cpp">
+			<Filter>Source\Game3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game3D\BattleTankGameMod.h">
+			<Filter>Source\Game3D</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\Game3D\Game3D.Build.cs">
 			<Filter>Source\Game3D</Filter>
 		</None >
@@ -41,6 +50,30 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\Game3D\Game3DGameModeBase.h">
 			<Filter>Source\Game3D</Filter>
+		</ClInclude >
+		<Filter Include="Source\Game3D\Private">
+			<UniqueIdentifier>{FB436793-DD72-477F-88F2-C547A9A60EFA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Game3D\Private\Tank.cpp">
+			<Filter>Source\Game3D\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game3D\Private\TankAIController.cpp">
+			<Filter>Source\Game3D\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game3D\Private\TankPlayerController.cpp">
+			<Filter>Source\Game3D\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Game3D\Public">
+			<UniqueIdentifier>{9D82EDA1-8DE0-4D9B-8E64-AC0C0F3F09BC}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Game3D\Public\Tank.h">
+			<Filter>Source\Game3D\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game3D\Public\TankAIController.h">
+			<Filter>Source\Game3D\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game3D\Public\TankPlayerController.h">
+			<Filter>Source\Game3D\Public</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>

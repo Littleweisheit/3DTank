@@ -1,0 +1,31 @@
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "GeneratedCppIncludes.h"
+#ifndef GAMEPLAYTASKS_GameplayTaskOwnerInterface_generated_h
+	#include "Classes/GameplayTaskOwnerInterface.h"
+#endif
+#ifndef GAMEPLAYTASKS_GameplayTask_generated_h
+	#include "Classes/GameplayTask.h"
+#endif
+#ifndef GAMEPLAYTASKS_GameplayTaskResource_generated_h
+	#include "Classes/GameplayTaskResource.h"
+#endif
+#ifndef GAMEPLAYTASKS_GameplayTask_ClaimResource_generated_h
+	#include "Classes/Tasks/GameplayTask_ClaimResource.h"
+#endif
+#ifndef GAMEPLAYTASKS_GameplayTask_SpawnActor_generated_h
+	#include "Classes/Tasks/GameplayTask_SpawnActor.h"
+#endif
+#ifndef GAMEPLAYTASKS_GameplayTask_TimeLimitedExecution_generated_h
+	#include "Classes/Tasks/GameplayTask_TimeLimitedExecution.h"
+#endif
+#ifndef GAMEPLAYTASKS_GameplayTask_WaitDelay_generated_h
+	#include "Classes/Tasks/GameplayTask_WaitDelay.h"
+#endif
+#ifndef GAMEPLAYTASKS_GameplayTasksComponent_generated_h
+	#include "Classes/GameplayTasksComponent.h"
+#endif

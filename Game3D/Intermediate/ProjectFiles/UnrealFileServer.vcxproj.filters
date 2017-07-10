@@ -5,7 +5,7 @@
 		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealFileServer\UnrealFileServer.Target.cs" />
 		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealFileServer\UnrealFileServer.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{08AD6F05-A963-42A8-AD20-C40EFF7E3039}</UniqueIdentifier>
+			<UniqueIdentifier>{3B0161D5-E0D9-4F11-88EC-34E1F0C85FD3}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealFileServer\Private\UnrealFileServer.cpp">
 			<Filter>Private</Filter>
