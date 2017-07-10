@@ -23,4 +23,16 @@ protected:
 	
 public:
 	virtual void Tick(float DeltaTime) override;
+	void AimTowardsCrosshair();	
+	bool GetSightRayHitLocation(FVector& HitLocation) const;
+
+private:
+
+	UPROPERTY(EditAnywhere)
+	float CrosshairXLocation = 0.5;
+
+	UPROPERTY(EditAnywhere)
+	float CrosshairYLocation = 0.3333;
+
 };
+

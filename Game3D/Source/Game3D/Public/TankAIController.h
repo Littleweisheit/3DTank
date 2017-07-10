@@ -17,7 +17,7 @@ class GAME3D_API ATankAIController : public AAIController
 	GENERATED_BODY()
 public:
 
-	ATank* GetPlayerTank() const
+	ATank* GetPlayerTank() const;
 
 protected:
 
