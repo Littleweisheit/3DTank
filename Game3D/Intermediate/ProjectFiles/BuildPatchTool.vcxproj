@@ -76,7 +76,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{D8803CB7-E11A-44D2-82A6-C0824AA7D026}</ProjectGuid>
+		<ProjectGuid>{41D40CF8-04A5-46EC-971D-DC957A338B00}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>BuildPatchTool</RootNamespace>
        <PlatformToolset>v141</PlatformToolset>
@@ -171,10 +171,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win32 Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win32 Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win32 Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win32\BuildPatchTool-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win32\BuildPatchTool-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -188,10 +188,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win64\BuildPatchTool-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win64\BuildPatchTool-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -205,10 +205,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Mac Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Mac Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Mac Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Mac\BuildPatchTool-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Mac\BuildPatchTool-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -222,10 +222,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool HTML5 Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool HTML5 Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\HTML5\BuildPatchTool-HTML5-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\HTML5\BuildPatchTool-HTML5-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -239,10 +239,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win32 Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win32 Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win32 Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win32\BuildPatchTool-Win32-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win32\BuildPatchTool-Win32-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -256,10 +256,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win64\BuildPatchTool-Win64-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win64\BuildPatchTool-Win64-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -273,10 +273,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Mac Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Mac Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Mac Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Mac\BuildPatchTool-Mac-Development</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Mac\BuildPatchTool-Mac-Development</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -290,10 +290,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool HTML5 Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool HTML5 Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool HTML5 Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\HTML5\BuildPatchTool-HTML5-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\HTML5\BuildPatchTool-HTML5-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -307,10 +307,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win32 Shipping -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win32 Shipping -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win32 Shipping -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win32\BuildPatchTool.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win32 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win32 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win32 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win32\BuildPatchTool.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -324,10 +324,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Shipping -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Shipping -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Shipping -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win64\BuildPatchTool.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Win64 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Win64 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Win64 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win64\BuildPatchTool.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -341,10 +341,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Mac Shipping -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Mac Shipping -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Mac Shipping -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Mac\BuildPatchTool</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool Mac Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool Mac Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool Mac Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Mac\BuildPatchTool</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -358,34 +358,34 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool HTML5 Shipping -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool HTML5 Shipping -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool HTML5 Shipping -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\HTML5\BuildPatchTool.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat BuildPatchTool HTML5 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat BuildPatchTool HTML5 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat BuildPatchTool HTML5 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\HTML5\BuildPatchTool.exe</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini" />
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
+		<None Include="F:\UnrealEngine-release\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h" />
 	</ItemGroup>
 	<PropertyGroup>
-		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CHECKS_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="BuildPatchTool-BuildPatchTool-Win64-Development.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;BUILDPATCHTOOL_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;BUILDPATCHSERVICES_API=;COREUOBJECT_API=;PROJECTS_API=;JSON_API=;PAKFILE_API=;SANDBOXFILE_API=;ENABLE_HTTP_FOR_NFS=0;NETWORKFILE_API=;STREAMINGFILE_API=;SOCKETS_PACKAGE=1;SOCKETS_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);F:\UnrealEngine-4.16.2-release\Engine\Source;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Launch\Private;F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Private;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Launch\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public\Interfaces;F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchTool;F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BuildPatchTool;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Internationalization;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Async;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Concurrency;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Containers;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Delegates;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\GenericPlatform;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\HAL;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Logging;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Math;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Misc;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Modules;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\ProfilingDebugging;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Serialization;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Serialization\Csv;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Stats;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Templates;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\UObject;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Windows;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Online\BuildPatchServices\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Online\BuildPatchServices\Public\Interfaces;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchServices;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Online\BuildPatchServices;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Blueprint;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Internationalization;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Misc;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Serialization;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Templates;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\UObject;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\CoreUObject;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Projects\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Projects\Public\Interfaces;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Projects;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Projects;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json\Public\Dom;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json\Public\Policies;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json\Public\Serialization;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Json;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\PakFile\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\PakFile;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\PakFile;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SandboxFile\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\SandboxFile;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SandboxFile;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Interfaces;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\NetworkFile\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\NetworkFile;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\NetworkFile;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\StreamingFile\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\StreamingFile;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\StreamingFile;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Sockets\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Sockets;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Sockets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="BuildPatchTool-BuildPatchTool-Win64-Development.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;BUILDPATCHTOOL_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;BUILDPATCHSERVICES_API=;COREUOBJECT_API=;PROJECTS_API=;JSON_API=;PAKFILE_API=;SANDBOXFILE_API=;ENABLE_HTTP_FOR_NF=0;NETWORKFILE_API=;STREAMINGFILE_API=;SOCKETS_PACKAGE=1;SOCKETS_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);F:\UnrealEngine-release\Engine\Source;F:\UnrealEngine-release\Engine\Source\Runtime\Launch\Private;F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private;F:\UnrealEngine-release\Engine\Source\Runtime\Launch\Public;F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public;F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\Interfaces;F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchTool;F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Internationalization;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Async;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Concurrency;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Containers;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Delegates;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\GenericPlatform;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\HAL;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Logging;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Math;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Misc;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Modules;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\ProfilingDebugging;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Serialization;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Serialization\Csv;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Stats;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Templates;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\UObject;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Windows;F:\UnrealEngine-release\Engine\Source\Runtime\Core;F:\UnrealEngine-release\Engine\Source\Runtime\Online\BuildPatchServices\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Online\BuildPatchServices\Public\Interfaces;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\BuildPatchServices;F:\UnrealEngine-release\Engine\Source\Runtime\Online\BuildPatchServices;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Blueprint;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Internationalization;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Misc;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Serialization;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Templates;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\UObject;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\CoreUObject;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject;F:\UnrealEngine-release\Engine\Source\Runtime\Projects\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Projects\Public\Interfaces;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Projects;F:\UnrealEngine-release\Engine\Source\Runtime\Projects;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Dom;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Policies;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Serialization;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Json;F:\UnrealEngine-release\Engine\Source\Runtime\Json;F:\UnrealEngine-release\Engine\Source\Runtime\PakFile\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\PakFile;F:\UnrealEngine-release\Engine\Source\Runtime\PakFile;F:\UnrealEngine-release\Engine\Source\Runtime\SandboxFile\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\SandboxFile;F:\UnrealEngine-release\Engine\Source\Runtime\SandboxFile;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Interfaces;F:\UnrealEngine-release\Engine\Source\Runtime\NetworkFile\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\NetworkFile;F:\UnrealEngine-release\Engine\Source\Runtime\NetworkFile;F:\UnrealEngine-release\Engine\Source\Runtime\StreamingFile\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\StreamingFile;F:\UnrealEngine-release\Engine\Source\Runtime\StreamingFile;F:\UnrealEngine-release\Engine\Source\Runtime\Sockets\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\BuildPatchTool\Inc\Sockets;F:\UnrealEngine-release\Engine\Source\Runtime\Sockets;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16267.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>

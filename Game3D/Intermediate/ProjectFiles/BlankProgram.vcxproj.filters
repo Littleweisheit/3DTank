@@ -2,15 +2,15 @@
 
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs" />
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{7ABC84BF-2089-4B9A-95EE-ECD1606565D5}</UniqueIdentifier>
+			<UniqueIdentifier>{648DF18F-1D29-4F86-B1FF-419417327811}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h">
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 	</ItemGroup>

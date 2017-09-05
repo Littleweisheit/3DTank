@@ -1,10 +1,8 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #include "TankPlayerController.h"
 
 
-
-
+//开始
 void ATankPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
@@ -16,21 +14,23 @@ void ATankPlayerController::BeginPlay()
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Get tank:%s"), *ControlledTank->GetName());
+		UE_LOG(LogTemp, Warning, TEXT("Get tank name is :%s"), *ControlledTank->GetName());
 	}
 
 }
 
+//每帧执行
 void ATankPlayerController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
 	AimTowardsCrosshair();
 }
 
 
 //###################################################################//
 
-
+//获取控制的坦克
 ATank* ATankPlayerController::GetControlledTank() const
 {
 	return Cast<ATank>(GetPawn());
@@ -39,7 +39,7 @@ ATank* ATankPlayerController::GetControlledTank() const
 
 void ATankPlayerController::AimTowardsCrosshair()
 {
-	if (!GetControlledTank()) return;
+	if (!GetControlledTank()) { return; }
 
 	FVector HitLocation;
 
@@ -50,12 +50,53 @@ void ATankPlayerController::AimTowardsCrosshair()
 
 }
 
-
+//视线落点
 bool ATankPlayerController::GetSightRayHitLocation(FVector & HitLocation) const
 {
 	int32 ViewPortX, ViewPortY;
 	GetViewportSize(ViewPortX, ViewPortY);
 	auto ScreenLocation = FVector2D(ViewPortX*CrosshairXLocation, ViewPortY* CrosshairYLocation);
-	UE_LOG(LogTemp, Warning, TEXT("ScreenLocation:%s"), *ScreenLocation.ToString());
+
+	FVector LookDirection;
+	if (GetLookDirection(ScreenLocation, LookDirection))
+	{
+		GetLookVectorHitLocation(LookDirection, HitLocation);
+		
+	}
+	
 	return true;
 }
+
+//投影到3D场景
+bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector & LookDirection) const
+{
+	FVector CameraWorldLocation, WorldDirection;
+
+	DeprojectScreenPositionToWorld(
+		ScreenLocation.X,
+		ScreenLocation.Y,
+		CameraWorldLocation, 
+		WorldDirection
+	);
+	return true;
+}
+
+bool ATankPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const
+{
+	FHitResult HitResult;
+	auto StartLocation = PlayerCameraManager->GetCameraLocation();
+	auto EndLocation = StartLocation + LookDirection*LineTraceRange;
+
+	if (GetWorld()->LineTraceSingleByChannel(
+		HitResult,
+		StartLocation,
+		EndLocation,
+		ECollisionChannel::ECC_Visibility)
+		)
+	{
+		HitLocation = HitResult.Location;
+		return true;
+	}
+	return false;
+}
+

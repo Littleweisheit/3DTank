@@ -2,36 +2,36 @@
 
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{FDB52940-0485-4672-A534-0A4688E73FF9}</UniqueIdentifier>
+			<UniqueIdentifier>{D4ED0C3B-3EBC-4101-A4BC-3461DD2AEE9F}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.cpp">
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.h">
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\Private\Primes.inl">
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\Private\Primes.inl">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.cpp">
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.h">
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\Private\UnrealPak.h">
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\Private\UnrealPak.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{CD3D41A4-D7E8-48C2-8ADA-C163A8B0FB14}</UniqueIdentifier>
+			<UniqueIdentifier>{E3C1B676-A3D9-499F-8DC9-070D197B024B}</UniqueIdentifier>
 		</Filter>
-		<ResourceCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\UnrealPak\Resources\PCLaunch.rc">
+		<ResourceCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealPak\Resources\PCLaunch.rc">
 			<Filter>Resources</Filter>
 		</ResourceCompile >
 	</ItemGroup>

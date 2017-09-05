@@ -19,6 +19,8 @@ void ATankAIController::Tick(float DeltaTime)
 
 }
 
+/////////////////////////////////////////////////////////////////////
+
 ATank* ATankAIController::GetPlayerTank() const
 {
 	auto PlayerTank = GetWorld()->GetFirstPlayerController()->GetPawn();

@@ -76,3 +76,5 @@ DerivedDataCache/*
 Game3D/DerivedDataCache/
 Game3D/Content/
 Game3D/Saved/
+Game3D/Intermediate/
+Game3D/Binaries/

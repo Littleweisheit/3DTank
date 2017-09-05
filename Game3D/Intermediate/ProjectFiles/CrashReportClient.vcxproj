@@ -76,7 +76,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{B36C3669-EC2D-49C9-AF31-F22183D4EE56}</ProjectGuid>
+		<ProjectGuid>{18ECFA77-3931-46F9-ADAA-8676C89E1538}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>CrashReportClient</RootNamespace>
        <PlatformToolset>v141</PlatformToolset>
@@ -171,10 +171,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win32\CrashReportClient-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win32\CrashReportClient-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -188,10 +188,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win64\CrashReportClient-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win64\CrashReportClient-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -205,10 +205,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Mac\CrashReportClient-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Mac\CrashReportClient-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -222,10 +222,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient HTML5 Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient HTML5 Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\HTML5\CrashReportClient-HTML5-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\HTML5\CrashReportClient-HTML5-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -239,10 +239,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win32\CrashReportClient-Win32-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win32\CrashReportClient-Win32-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -256,10 +256,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win64\CrashReportClient-Win64-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win64\CrashReportClient-Win64-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -273,10 +273,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Mac\CrashReportClient-Mac-Development</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Mac\CrashReportClient-Mac-Development</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -290,10 +290,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient HTML5 Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient HTML5 Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient HTML5 Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\HTML5\CrashReportClient-HTML5-Development.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\HTML5\CrashReportClient-HTML5-Development.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -307,10 +307,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Shipping -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Shipping -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Shipping -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win32\CrashReportClient.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win32 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win32 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win32 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win32\CrashReportClient.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -324,10 +324,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Shipping -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Shipping -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Shipping -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Win64\CrashReportClient.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Win64 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Win64 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Win64 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win64\CrashReportClient.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -341,10 +341,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Shipping -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Shipping -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Shipping -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\Mac\CrashReportClient</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient Mac Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient Mac Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient Mac Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Mac\CrashReportClient</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -358,59 +358,59 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Build.bat CrashReportClient HTML5 Shipping -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient HTML5 Shipping -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-4.16.2-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient HTML5 Shipping -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-4.16.2-release\Engine\Binaries\HTML5\CrashReportClient.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat CrashReportClient HTML5 Shipping -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat CrashReportClient HTML5 Shipping -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat CrashReportClient HTML5 Shipping -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\HTML5\CrashReportClient.exe</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\CrashReportClient.Target.cs" />
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Programs\CrashReportClient\Config\DefaultEngine.ini" />
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\CrashReportClient.Build.cs" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashDescription.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashDescription.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportAnalytics.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportAnalytics.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClient.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClient.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientApp.cpp" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientConfig.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientConfig.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientStyle.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientStyle.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientUnattended.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientUnattended.h" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportUtil.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashUpload.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashUpload.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\GenericErrorReport.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\GenericErrorReport.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\MainLoopTiming.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\MainLoopTiming.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PendingReports.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PendingReports.h" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PlatformErrorReport.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\SCrashReportClient.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\SCrashReportClient.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Linux\LinuxErrorReport.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\MacErrorReport.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\MacErrorReport.h" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp" />
-		<ClCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\WindowsErrorReport.cpp" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\WindowsErrorReport.h" />
-		<ClInclude Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Public\CrashReportClientApp.h" />
-		<Manifest Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient-Win32.manifest" />
-		<Manifest Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient-Win64.manifest" />
-		<None Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient.ico" />
-		<ResourceCompile Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient.rc" />
-		<Manifest Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win32.manifest" />
-		<Manifest Include="F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win64.manifest" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\CrashReportClient.Target.cs" />
+		<None Include="F:\UnrealEngine-release\Engine\Programs\CrashReportClient\Config\DefaultEngine.ini" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\CrashReportClient.Build.cs" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashDescription.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashDescription.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportAnalytics.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportAnalytics.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClient.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClient.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientApp.cpp" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientConfig.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientConfig.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientStyle.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientStyle.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientUnattended.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportClientUnattended.h" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashReportUtil.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashUpload.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\CrashUpload.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\GenericErrorReport.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\GenericErrorReport.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\MainLoopTiming.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\MainLoopTiming.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PendingReports.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PendingReports.h" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\PlatformErrorReport.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\SCrashReportClient.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\SCrashReportClient.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Linux\LinuxErrorReport.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\MacErrorReport.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Mac\MacErrorReport.h" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp" />
+		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\WindowsErrorReport.cpp" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private\Windows\WindowsErrorReport.h" />
+		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Public\CrashReportClientApp.h" />
+		<Manifest Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient-Win32.manifest" />
+		<Manifest Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient-Win64.manifest" />
+		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient.ico" />
+		<ResourceCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\CrashReportClient.rc" />
+		<Manifest Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win32.manifest" />
+		<Manifest Include="F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Resources\Windows\Debug-CrashReportClient-Win64.manifest" />
 	</ItemGroup>
 	<PropertyGroup>
-		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;NOINITCRASHREPORTER=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CHECKS_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="CrashReportClient-CrashReportClient-Win64-Development.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;CRASHREPORTCLIENT_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;CRASHDEBUGHELPER_API=;SOURCE_CONTROL_WITH_SLATE=1;SOURCECONTROL_API=;INPUTCORE_API=;HTTP_PACKAGE=1;HTTP_API=;JSON_API=;PROJECTS_API=;XMLPARSER_API=;ANALYTICS_API=;ANALYTICSET_API=;DESKTOPPLATFORM_API=;SLATE_API=;WITH_FREETYPE=1;SLATECORE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;STANDALONERENDERER_API=;MESSAGELOG_API=;SLATE_REFLECTOR_HAS_SESSION_SERVICES=0;SLATE_REFLECTOR_HAS_DESKTOP_PLATFORM=1;SLATEREFLECTOR_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);F:\UnrealEngine-4.16.2-release\Engine\Source;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Launch\Private;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Launch\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private;F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashReportClient;F:\UnrealEngine-4.16.2-release\Engine\Source\Programs\CrashReporter\CrashReportClient;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Internationalization;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Async;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Concurrency;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Containers;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Delegates;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\GenericPlatform;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\HAL;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Logging;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Math;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Misc;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Modules;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\ProfilingDebugging;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Serialization;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Serialization\Csv;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Stats;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Templates;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\UObject;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core\Public\Windows;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Core;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Blueprint;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Internationalization;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Misc;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Serialization;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\Templates;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject\Public\UObject;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CoreUObject;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\CoreUObject;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\CrashDebugHelper\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashDebugHelper;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\CrashDebugHelper;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\SourceControl\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\SourceControl\Public\Tests;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SourceControl;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\SourceControl;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\InputCore\Classes;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\InputCore\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\InputCore;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\InputCore;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Online\HTTP\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Online\HTTP\Public\Windows;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\HTTP;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Online\HTTP;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json\Public\Dom;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json\Public\Policies;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json\Public\Serialization;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Json;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Json;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Projects\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Projects\Public\Interfaces;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Projects;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Projects;F:\UnrealEngine-4.16.2-release\Engine\Source\Editor\XmlParser\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\XmlParser\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\XmlParser;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\XmlParser;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Analytics\Analytics\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Analytics\Analytics\Public\Interfaces;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Analytics;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Analytics\Analytics;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Analytics\AnalyticsET\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\AnalyticsET;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Analytics\AnalyticsET;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\DesktopPlatform\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\DesktopPlatform;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\DesktopPlatform;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\Application;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\Commands;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\Docking;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\Layout;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\MetaData;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\Notifications;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\Styling;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\Text;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Framework\Views;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\Colors;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\Docking;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\Images;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\Input;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\Layout;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\Text;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate\Public\Widgets\Views;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Slate;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\Slate;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Animation;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Application;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Brushes;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Fonts;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Input;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Layout;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Logging;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Rendering;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Sound;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Stats;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Styling;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Textures;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Types;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore\Public\Widgets;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SlateCore;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\SlateCore;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\ImageWrapper\Public;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\ImageWrapper\Public\Interfaces;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\ImageWrapper;F:\UnrealEngine-4.16.2-release\Engine\Source\Runtime\ImageWrapper;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\StandaloneRenderer\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\StandaloneRenderer;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\StandaloneRenderer;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\MessageLog\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\MessageLog;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\MessageLog;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\SlateReflector\Public;F:\UnrealEngine-4.16.2-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SlateReflector;F:\UnrealEngine-4.16.2-release\Engine\Source\Developer\SlateReflector;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.10.25017\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;NOINITCRASHREPORTER=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="CrashReportClient-CrashReportClient-Win64-Development.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;CRASHREPORTCLIENT_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;CRASHDEBUGHELPER_API=;SOURCE_CONTROL_WITH_SLATE=1;SOURCECONTROL_API=;INPUTCORE_API=;HTTP_PACKAGE=1;HTTP_API=;JSON_API=;PROJECTS_API=;XMLPARSER_API=;ANALYTICS_API=;ANALYTICSET_API=;DESKTOPPLATFORM_API=;LAUNCHERPLATFORM_API=;SLATE_API=;SLATE_DEFERRED_DESIRED_SIZE=0;WITH_FREETYPE=1;SLATECORE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;STANDALONERENDERER_API=;MESSAGELOG_API=;SLATE_REFLECTOR_HAS_SESSION_SERVICES=0;SLATE_REFLECTOR_HAS_DESKTOP_PLATFORM=1;SLATEREFLECTOR_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);F:\UnrealEngine-release\Engine\Source;F:\UnrealEngine-release\Engine\Source\Runtime\Launch\Private;F:\UnrealEngine-release\Engine\Source\Runtime\Launch\Public;F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Private;F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashReportClient;F:\UnrealEngine-release\Engine\Source\Programs\CrashReporter\CrashReportClient;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Internationalization;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Async;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Concurrency;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Containers;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Delegates;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\GenericPlatform;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\HAL;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Logging;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Math;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Misc;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Modules;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\ProfilingDebugging;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Serialization;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Serialization\Csv;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Stats;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Templates;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\UObject;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Windows;F:\UnrealEngine-release\Engine\Source\Runtime\Core;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Blueprint;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Internationalization;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Misc;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Serialization;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\Templates;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Public\UObject;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CoreUObject;F:\UnrealEngine-release\Engine\Source\Runtime\CoreUObject;F:\UnrealEngine-release\Engine\Source\Developer\CrashDebugHelper\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\CrashDebugHelper;F:\UnrealEngine-release\Engine\Source\Developer\CrashDebugHelper;F:\UnrealEngine-release\Engine\Source\Developer\SourceControl\Public;F:\UnrealEngine-release\Engine\Source\Developer\SourceControl\Public\Tests;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SourceControl;F:\UnrealEngine-release\Engine\Source\Developer\SourceControl;F:\UnrealEngine-release\Engine\Source\Runtime\InputCore\Classes;F:\UnrealEngine-release\Engine\Source\Runtime\InputCore\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\InputCore;F:\UnrealEngine-release\Engine\Source\Runtime\InputCore;F:\UnrealEngine-release\Engine\Source\Runtime\Online\HTTP\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;F:\UnrealEngine-release\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;F:\UnrealEngine-release\Engine\Source\Runtime\Online\HTTP\Public\Windows;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\HTTP;F:\UnrealEngine-release\Engine\Source\Runtime\Online\HTTP;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Dom;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Policies;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Serialization;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Json;F:\UnrealEngine-release\Engine\Source\Runtime\Json;F:\UnrealEngine-release\Engine\Source\Runtime\Projects\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Projects\Public\Interfaces;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Projects;F:\UnrealEngine-release\Engine\Source\Runtime\Projects;F:\UnrealEngine-release\Engine\Source\Editor\XmlParser\Public;F:\UnrealEngine-release\Engine\Source\Runtime\XmlParser\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\XmlParser;F:\UnrealEngine-release\Engine\Source\Runtime\XmlParser;F:\UnrealEngine-release\Engine\Source\Runtime\Analytics\Analytics\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Analytics\Analytics\Public\Interfaces;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Analytics;F:\UnrealEngine-release\Engine\Source\Runtime\Analytics\Analytics;F:\UnrealEngine-release\Engine\Source\Runtime\Analytics\AnalyticsET\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\AnalyticsET;F:\UnrealEngine-release\Engine\Source\Runtime\Analytics\AnalyticsET;F:\UnrealEngine-release\Engine\Source\Developer\DesktopPlatform\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\DesktopPlatform;F:\UnrealEngine-release\Engine\Source\Developer\DesktopPlatform;F:\UnrealEngine-release\Engine\Source\Runtime\Portal\LauncherPlatform\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\LauncherPlatform;F:\UnrealEngine-release\Engine\Source\Runtime\Portal\LauncherPlatform;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\Application;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\Commands;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\Docking;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\Layout;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\MetaData;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\Notifications;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\Styling;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\Text;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Framework\Views;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\Colors;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\Docking;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\Images;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\Input;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\Layout;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\Text;F:\UnrealEngine-release\Engine\Source\Runtime\Slate\Public\Widgets\Views;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\Slate;F:\UnrealEngine-release\Engine\Source\Runtime\Slate;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Animation;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Application;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Brushes;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Fonts;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Input;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Layout;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Logging;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Rendering;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Sound;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Stats;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Styling;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Textures;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Types;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore\Public\Widgets;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SlateCore;F:\UnrealEngine-release\Engine\Source\Runtime\SlateCore;F:\UnrealEngine-release\Engine\Source\Runtime\ImageWrapper\Public;F:\UnrealEngine-release\Engine\Source\Runtime\ImageWrapper\Public\Interfaces;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\ImageWrapper;F:\UnrealEngine-release\Engine\Source\Runtime\ImageWrapper;F:\UnrealEngine-release\Engine\Source\Developer\StandaloneRenderer\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\StandaloneRenderer;F:\UnrealEngine-release\Engine\Source\Developer\StandaloneRenderer;F:\UnrealEngine-release\Engine\Source\Developer\MessageLog\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\MessageLog;F:\UnrealEngine-release\Engine\Source\Developer\MessageLog;F:\UnrealEngine-release\Engine\Source\Developer\SlateReflector\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\CrashReportClient\Inc\SlateReflector;F:\UnrealEngine-release\Engine\Source\Developer\SlateReflector;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16267.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
