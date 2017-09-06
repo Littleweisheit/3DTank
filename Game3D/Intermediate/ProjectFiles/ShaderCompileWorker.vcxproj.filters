@@ -4,20 +4,20 @@
 	<ItemGroup>
 		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
 		<Filter Include="Config">
-			<UniqueIdentifier>{F17A6468-D775-4DF6-88E9-396B419F2AE2}</UniqueIdentifier>
+			<UniqueIdentifier>{BC0A04A0-0F3A-4AC3-AEB5-912348A53C78}</UniqueIdentifier>
 		</Filter>
 		<None Include="F:\UnrealEngine-release\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
 		</None >
 		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{2DE2B4E0-B7AD-4F0C-B620-67E0ECA6971A}</UniqueIdentifier>
+			<UniqueIdentifier>{D29651F2-47D7-4F39-8D6E-841220A7D891}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{4EF30648-B5CE-4D0B-B0EB-70FC42E4E490}</UniqueIdentifier>
+			<UniqueIdentifier>{E472C0A2-98AB-4C82-8820-308133219A14}</UniqueIdentifier>
 		</Filter>
 		<Manifest Include="F:\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest">
 			<Filter>Resources</Filter>

@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
 		<Filter Include="Config">
-			<UniqueIdentifier>{BE1D4790-4D53-4965-B7FE-453BC2A37E18}</UniqueIdentifier>
+			<UniqueIdentifier>{E9AE9081-E69A-43A1-8C1B-9D655D04AA85}</UniqueIdentifier>
 		</Filter>
 		<None Include="F:\UnrealEngine-release\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
 			<Filter>Config</Filter>
@@ -12,7 +12,7 @@
 		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
 		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{1A260796-E05C-4CED-83F5-2A6B958A1847}</UniqueIdentifier>
+			<UniqueIdentifier>{0F39FFCE-00CA-483F-A81C-3F60218861FD}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
 			<Filter>Private</Filter>
@@ -21,7 +21,7 @@
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\ToolModes">
-			<UniqueIdentifier>{15AD42E2-17A6-4F7F-A0D0-9D0F25ACD71C}</UniqueIdentifier>
+			<UniqueIdentifier>{54608B3A-0693-4BF0-AF17-4D161D196C3F}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
 			<Filter>Private\ToolModes</Filter>
@@ -39,19 +39,19 @@
 			<Filter>Private\ToolModes</Filter>
 		</ClCompile >
 		<Filter Include="Public">
-			<UniqueIdentifier>{6AA5FAC3-6FE2-4799-9CDA-27AC16A7A36B}</UniqueIdentifier>
+			<UniqueIdentifier>{15C6ACC5-8504-41A9-BC97-39ABFDCFCEAD}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Public\Interfaces">
-			<UniqueIdentifier>{9879B07C-9C9F-4762-9CFF-FD11235528BB}</UniqueIdentifier>
+			<UniqueIdentifier>{17F1B707-45E1-438A-95BE-A1C7D3E1E9ED}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
 			<Filter>Public\Interfaces</Filter>
 		</ClInclude >
 		<Filter Include="Public\ToolModes">
-			<UniqueIdentifier>{F4826353-5BEF-4B85-9220-9AB070FF7CCC}</UniqueIdentifier>
+			<UniqueIdentifier>{1C848C37-5657-48F4-9161-C51CA2BE28F9}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h">
 			<Filter>Public\ToolModes</Filter>

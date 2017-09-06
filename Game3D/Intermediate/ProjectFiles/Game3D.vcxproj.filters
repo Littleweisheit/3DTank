@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Game3D.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{867559E3-7532-4EB0-AF2C-AE2B28C746FB}</UniqueIdentifier>
+			<UniqueIdentifier>{A6E170AF-468F-4E8C-893C-679942A123C0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Game3D.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{2114E064-F28E-427B-8D84-4C8565FE9607}</UniqueIdentifier>
+			<UniqueIdentifier>{D5ADEF0E-37ED-442C-8DA3-DD4F02743296}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Game3D">
-			<UniqueIdentifier>{5605414F-AC75-4695-86DC-D3C10AFBACD8}</UniqueIdentifier>
+			<UniqueIdentifier>{7024EE3D-DD9A-48B7-A560-C8FCA0F94D24}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Game3D\BattleTankGameMod.cpp">
 			<Filter>Source\Game3D</Filter>
@@ -52,7 +52,7 @@
 			<Filter>Source\Game3D</Filter>
 		</ClInclude >
 		<Filter Include="Source\Game3D\Private">
-			<UniqueIdentifier>{3FF763BE-8D4A-4BBB-8BDD-257EE21444EC}</UniqueIdentifier>
+			<UniqueIdentifier>{DAD3A404-C0E6-4C80-B9ED-E937F3414067}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Game3D\Private\Tank.cpp">
 			<Filter>Source\Game3D\Private</Filter>
@@ -64,7 +64,7 @@
 			<Filter>Source\Game3D\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\Game3D\Public">
-			<UniqueIdentifier>{F24E1BFF-C94C-46C4-BE4A-24703396847F}</UniqueIdentifier>
+			<UniqueIdentifier>{36972CB1-0AA9-4C07-9873-62E2182E7B22}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\Game3D\Public\Tank.h">
 			<Filter>Source\Game3D\Public</Filter>
