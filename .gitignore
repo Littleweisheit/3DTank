@@ -72,9 +72,11 @@ Saved/*
 Intermediate/*
 
 # Cache files for the editor to use
+
 DerivedDataCache/*
 Game3D/DerivedDataCache/
 Game3D/Content/
-Game3D/Saved/
-Game3D/Intermediate/
+Saved/
+Intermediate/
+
 Game3D/Binaries/
