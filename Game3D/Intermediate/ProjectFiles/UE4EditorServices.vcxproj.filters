@@ -5,16 +5,16 @@
 		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Target.cs" />
 		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{7186B409-22EE-454A-A872-4CB8C97E868B}</UniqueIdentifier>
+			<UniqueIdentifier>{ABD18D89-416B-41A2-A6E8-BDA4046B18B4}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Private\Linux">
-			<UniqueIdentifier>{90C435DD-AA29-4AE4-BA27-59BBDE751322}</UniqueIdentifier>
+			<UniqueIdentifier>{A07BDEC8-0FEB-4581-9C08-7D7BC1AB52D9}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\Mac\UE4EditorServices\Private\Linux\UE4EditorServicesMain.cpp">
 			<Filter>Private\Linux</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{8A21218D-299F-4E39-A1B4-67CA7A00E003}</UniqueIdentifier>
+			<UniqueIdentifier>{11C95968-9A71-4298-8813-B42D6728D06B}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesAppDelegate.cpp">
 			<Filter>Private\Mac</Filter>
@@ -26,7 +26,7 @@
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{A9E55F31-0AD6-47C7-88D3-A8AFBAA1C7E5}</UniqueIdentifier>
+			<UniqueIdentifier>{B88D4519-6B4D-42F3-9DBE-B0B5422D75D8}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\Mac\UE4EditorServices\Private\Windows\UE4EditorServicesMain.cpp">
 			<Filter>Private\Windows</Filter>

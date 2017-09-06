@@ -4,7 +4,8 @@
 #include "Tank.h"
 #include "GameFramework/Actor.h"
 
-void ATankAIController::BeginPlay() 
+
+void ATankAIController::BeginPlay()
 {
 	Super::BeginPlay();
 	auto PlayerTank = GetPlayerTank();
@@ -16,6 +17,12 @@ void ATankAIController::BeginPlay()
 void ATankAIController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (GetPlayerTank())
+	{
+		GetControlledTank()->AimAt(GetPlayerTank()->GetActorLocation());
+		
+	}
 
 }
 
@@ -29,4 +36,10 @@ ATank* ATankAIController::GetPlayerTank() const
 		UE_LOG(LogTemp, Warning, TEXT("Cant get player tank"));
 	}
 	return Cast<ATank>(PlayerTank);
+}
+
+
+ATank * ATankAIController::GetControlledTank() const
+{
+	return Cast<ATank>(GetPawn());
 }

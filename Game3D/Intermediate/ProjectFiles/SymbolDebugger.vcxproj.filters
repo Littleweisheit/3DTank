@@ -5,7 +5,7 @@
 		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\SymbolDebugger\SymbolDebugger.Target.cs" />
 		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\SymbolDebugger\SymbolDebugger.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{3036DAF5-A42E-4AE9-AC87-C8AE384596D9}</UniqueIdentifier>
+			<UniqueIdentifier>{0E35C203-8E8B-4E52-8AB0-5114F0E396F5}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\SymbolDebugger\Private\SSymbolDebugger.cpp">
 			<Filter>Private</Filter>
@@ -23,28 +23,28 @@
 			<Filter>Private</Filter>
 		</ClCompile >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{E593AD4C-3EA4-4395-88E7-70D50DF89891}</UniqueIdentifier>
+			<UniqueIdentifier>{73377DD7-D457-4D53-BD38-0E44468521F3}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\SymbolDebugger\Private\Mac\SymbolDebuggerMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{871DB953-4AF3-4211-9311-ED2EC3827237}</UniqueIdentifier>
+			<UniqueIdentifier>{F0DDCFF7-2393-46D5-90EC-F7E16A1DEF15}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\SymbolDebugger\Private\Windows\SymbolDebuggerMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Public">
-			<UniqueIdentifier>{5F312A29-49C2-4581-A999-E8F0EBE541A9}</UniqueIdentifier>
+			<UniqueIdentifier>{4860D291-B417-4A44-8F40-4F5032711A1B}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\SymbolDebugger\Public\SymbolDebuggerApp.h">
 			<Filter>Public</Filter>
 		</ClInclude >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{27C7B4CA-4AE9-484B-80B9-B5056A078636}</UniqueIdentifier>
+			<UniqueIdentifier>{9200BE33-2CAE-4381-9782-27FEF84A3781}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{E6600586-13E1-4E5E-9E28-70878EADE7B0}</UniqueIdentifier>
+			<UniqueIdentifier>{618850B1-FBA5-40F5-8351-DADE4CE274EA}</UniqueIdentifier>
 		</Filter>
 		<Manifest Include="F:\UnrealEngine-release\Engine\Source\Programs\SymbolDebugger\Resources\Windows\Debug-PCLaunch-Win32.manifest">
 			<Filter>Resources\Windows</Filter>

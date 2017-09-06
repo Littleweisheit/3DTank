@@ -18,10 +18,13 @@ class GAME3D_API ATankAIController : public AAIController
 public:
 
 	ATank* GetPlayerTank() const;
+	ATank* GetControlledTank() const;
 
 protected:
 
 	virtual void BeginPlay() override;
+
+
 
 public:
 
