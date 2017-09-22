@@ -8,13 +8,36 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UStaticMeshComponent;
 #ifdef GAME3D_Tank_generated_h
 #error "Tank.generated.h already included, missing '#pragma once' in Tank.h"
 #endif
 #define GAME3D_Tank_generated_h
 
-#define Game3D_Source_Game3D_Public_Tank_h_13_RPC_WRAPPERS
-#define Game3D_Source_Game3D_Public_Tank_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define Game3D_Source_Game3D_Public_Tank_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetBarrelReference) \
+	{ \
+		P_GET_OBJECT(UStaticMeshComponent,Z_Param_BarrelToReset); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetBarrelReference(Z_Param_BarrelToReset); \
+		P_NATIVE_END; \
+	}
+
+
+#define Game3D_Source_Game3D_Public_Tank_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetBarrelReference) \
+	{ \
+		P_GET_OBJECT(UStaticMeshComponent,Z_Param_BarrelToReset); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->SetBarrelReference(Z_Param_BarrelToReset); \
+		P_NATIVE_END; \
+	}
+
+
 #define Game3D_Source_Game3D_Public_Tank_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATank(); \

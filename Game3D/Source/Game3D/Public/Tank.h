@@ -33,5 +33,10 @@ public:
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	void AimAt(FVector Hitlocation);
 	
+	UFUNCTION(BlueprintCallable, Category = "Setup")
+	void SetBarrelReference(UStaticMeshComponent* BarrelToReset);
+	
+	UPROPERTY(EditAnywhere, Category = "Firing")
+	float LaunchSpeed = 100000;
 	
 };

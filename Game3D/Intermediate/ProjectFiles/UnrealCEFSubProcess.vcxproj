@@ -52,7 +52,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{4FD4D17C-1562-49C6-9D80-B4FCAE5368AC}</ProjectGuid>
+		<ProjectGuid>{3C779EB9-0C98-4942-AA46-802F2A6707BC}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>UnrealCEFSubProcess</RootNamespace>
        <PlatformToolset>v141</PlatformToolset>
@@ -123,10 +123,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Win32 Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Win32 Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Win32 Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win32\UnrealCEFSubProcess-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-4.17\Engine\Binaries\Win32\UnrealCEFSubProcess-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -140,10 +140,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Win64 Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Win64 Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Win64 Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win64\UnrealCEFSubProcess-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-4.17\Engine\Binaries\Win64\UnrealCEFSubProcess-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -157,10 +157,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Mac Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Mac Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Mac Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Mac\UnrealCEFSubProcess-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-4.17\Engine\Binaries\Mac\UnrealCEFSubProcess-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -174,10 +174,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess HTML5 Debug -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess HTML5 Debug -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\HTML5\UnrealCEFSubProcess-HTML5-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-4.17\Engine\Binaries\HTML5\UnrealCEFSubProcess-HTML5-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -191,10 +191,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Win32 Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Win32 Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Win32 Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win32\UnrealCEFSubProcess.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-4.17\Engine\Binaries\Win32\UnrealCEFSubProcess.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -208,10 +208,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Win64 Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Win64 Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Win64 Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Win64\UnrealCEFSubProcess.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-4.17\Engine\Binaries\Win64\UnrealCEFSubProcess.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -225,10 +225,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Mac Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Mac Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Mac Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\Mac\UnrealCEFSubProcess</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-4.17\Engine\Binaries\Mac\UnrealCEFSubProcess</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -242,31 +242,31 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess HTML5 Development -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess HTML5 Development -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>F:\UnrealEngine-release\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess HTML5 Development -waitmutex</NMakeCleanCommandLine>
-		<NMakeOutput>F:\UnrealEngine-release\Engine\Binaries\HTML5\UnrealCEFSubProcess.exe</NMakeOutput>
+		<NMakeBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Build.bat UnrealCEFSubProcess HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Rebuild.bat UnrealCEFSubProcess HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>F:\UnrealEngine-4.17\Engine\Build\BatchFiles\Clean.bat UnrealCEFSubProcess HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>F:\UnrealEngine-4.17\Engine\Binaries\HTML5\UnrealCEFSubProcess.exe</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs" />
-		<None Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs" />
-		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp" />
-		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.h" />
-		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.cpp" />
-		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.h" />
-		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.cpp" />
-		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.h" />
-		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.cpp" />
-		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.h" />
-		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.cpp" />
-		<ClInclude Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.h" />
-		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp" />
-		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp" />
-		<ClCompile Include="F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp" />
+		<None Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs" />
+		<None Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs" />
+		<ClCompile Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp" />
+		<ClInclude Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.h" />
+		<ClCompile Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.cpp" />
+		<ClInclude Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.h" />
+		<ClCompile Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.cpp" />
+		<ClInclude Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.h" />
+		<ClCompile Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.cpp" />
+		<ClInclude Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.h" />
+		<ClCompile Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.cpp" />
+		<ClInclude Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.h" />
+		<ClCompile Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp" />
+		<ClCompile Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp" />
+		<ClCompile Include="F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp" />
 	</ItemGroup>
 	<PropertyGroup>
 		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;ALLOW_LOG_FILE=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UnrealCEFSubProcess-UnrealCEFSubProcess.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UNREALCEFSUBPROCESS_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;PROJECTS_API=;JSON_API=;CEF3UTILS_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);F:\UnrealEngine-release\Engine\Source;F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess\Private;F:\UnrealEngine-release\Engine\Source\Runtime\Launch\Private;F:\UnrealEngine-release\Engine\Source\Runtime\Launch\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\UnrealCEFSubProcess;F:\UnrealEngine-release\Engine\Source\Programs\UnrealCEFSubProcess;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Internationalization;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Async;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Concurrency;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Containers;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Delegates;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\GenericPlatform;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\HAL;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Logging;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Math;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Misc;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Modules;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\ProfilingDebugging;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Serialization;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Serialization\Csv;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Stats;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Templates;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\UObject;F:\UnrealEngine-release\Engine\Source\Runtime\Core\Public\Windows;F:\UnrealEngine-release\Engine\Source\Runtime\Core;F:\UnrealEngine-release\Engine\Source\Runtime\Projects\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Projects\Public\Interfaces;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Projects;F:\UnrealEngine-release\Engine\Source\Runtime\Projects;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Dom;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Policies;F:\UnrealEngine-release\Engine\Source\Runtime\Json\Public\Serialization;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Json;F:\UnrealEngine-release\Engine\Source\Runtime\Json;F:\UnrealEngine-release\Engine\Source\Runtime\CEF3Utils\Public;F:\UnrealEngine-release\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\CEF3Utils;F:\UnrealEngine-release\Engine\Source\Runtime\CEF3Utils;F:\UnrealEngine-release\Engine\Source\ThirdParty\CEF3;F:\UnrealEngine-release\Engine\Source\ThirdParty\CEF3\cef_binary_3.2623.1395.g3034273_windows64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16267.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);F:\UnrealEngine-4.17\Engine\Source;F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess\Private;F:\UnrealEngine-4.17\Engine\Source\Runtime\Launch\Private;F:\UnrealEngine-4.17\Engine\Source\Runtime\Launch\Public;F:\UnrealEngine-4.17\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\UnrealCEFSubProcess;F:\UnrealEngine-4.17\Engine\Source\Programs\UnrealCEFSubProcess;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Internationalization;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Async;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Concurrency;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Containers;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Delegates;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\GenericPlatform;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\HAL;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Logging;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Math;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Misc;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Modules;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\ProfilingDebugging;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Serialization;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Serialization\Csv;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Stats;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Templates;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\UObject;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core\Public\Windows;F:\UnrealEngine-4.17\Engine\Source\Runtime\Core;F:\UnrealEngine-4.17\Engine\Source\Runtime\Projects\Public;F:\UnrealEngine-4.17\Engine\Source\Runtime\Projects\Public\Interfaces;F:\UnrealEngine-4.17\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Projects;F:\UnrealEngine-4.17\Engine\Source\Runtime\Projects;F:\UnrealEngine-4.17\Engine\Source\Runtime\Json\Public;F:\UnrealEngine-4.17\Engine\Source\Runtime\Json\Public\Dom;F:\UnrealEngine-4.17\Engine\Source\Runtime\Json\Public\Policies;F:\UnrealEngine-4.17\Engine\Source\Runtime\Json\Public\Serialization;F:\UnrealEngine-4.17\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Json;F:\UnrealEngine-4.17\Engine\Source\Runtime\Json;F:\UnrealEngine-4.17\Engine\Source\Runtime\CEF3Utils\Public;F:\UnrealEngine-4.17\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\CEF3Utils;F:\UnrealEngine-4.17\Engine\Source\Runtime\CEF3Utils;F:\UnrealEngine-4.17\Engine\Source\ThirdParty\CEF3;F:\UnrealEngine-4.17\Engine\Source\ThirdParty\CEF3\cef_binary_3.2623.1395.g3034273_windows64;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16267.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>

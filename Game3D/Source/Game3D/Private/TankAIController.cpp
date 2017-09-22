@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "TankAIController.h"
-#include "Tank.h"
 #include "GameFramework/Actor.h"
 
 
@@ -9,7 +8,7 @@ void ATankAIController::BeginPlay()
 {
 	Super::BeginPlay();
 	auto PlayerTank = GetPlayerTank();
-	UE_LOG(LogTemp, Warning, TEXT("The player tank:%s"), *(PlayerTank->GetName()));
+	//UE_LOG(LogTemp, Warning, TEXT("The player tank:%s"), *(PlayerTank->GetName()));
 }
 
 
@@ -20,6 +19,7 @@ void ATankAIController::Tick(float DeltaTime)
 
 	if (GetPlayerTank())
 	{
+
 		GetControlledTank()->AimAt(GetPlayerTank()->GetActorLocation());
 		
 	}

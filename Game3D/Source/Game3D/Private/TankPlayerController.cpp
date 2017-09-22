@@ -1,5 +1,11 @@
 
+
 #include "TankPlayerController.h"
+#include "DrawDebugHelpers.h"
+#include "Engine/World.h"
+#include "GameFramework/Actor.h"
+
+
 
 
 //¿ªÊ¼
@@ -73,12 +79,14 @@ bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation, FVector &
 {
 	FVector CameraWorldLocation, WorldDirection;
 
-	DeprojectScreenPositionToWorld(
+	DeprojectScreenPositionToWorld
+	(
 		ScreenLocation.X,
 		ScreenLocation.Y,
-		CameraWorldLocation, 
+		CameraWorldLocation,
 		WorldDirection
 	);
+	LookDirection = WorldDirection;
 	return true;
 }
 
@@ -87,17 +95,35 @@ bool ATankPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVec
 	FHitResult HitResult;
 	auto StartLocation = PlayerCameraManager->GetCameraLocation();
 	auto EndLocation = StartLocation + LookDirection*LineTraceRange;
-
-	if (GetWorld()->LineTraceSingleByChannel(
+	DrawDebugLine
+	(
+		GetWorld(),
+		StartLocation,
+		EndLocation,
+		FColor(255, 0, 0),
+		false,
+		-0.5,
+		0,
+		10
+	);
+	if (
+		GetWorld()->LineTraceSingleByChannel
+	(
 		HitResult,
 		StartLocation,
 		EndLocation,
-		ECollisionChannel::ECC_Visibility)
+		ECollisionChannel::ECC_Visibility
+	)
 		)
 	{
 		HitLocation = HitResult.Location;
 		return true;
 	}
-	return false;
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("LineTraceSingleByChannel is failed %s EndLocation is %s LookDirection is %s"),*StartLocation.ToString(),*EndLocation.ToString(),*LookDirection.ToString())
+
+		return false;
+	}
 }
 

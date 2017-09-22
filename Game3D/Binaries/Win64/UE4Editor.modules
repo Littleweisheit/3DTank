@@ -1,8 +1,8 @@
 {
 	"Changelist" : 0,
-	"BuildId" : "",
+	"BuildId" : "dde23f32-cce8-42b9-a896-131f4c3822a0",
 	"Modules" : 
 	{
-		"Game3D" : "UE4Editor-Game3D-1653.dll"
+		"Game3D" : "UE4Editor-Game3D-9346.dll"
 	}
 }

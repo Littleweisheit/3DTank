@@ -1,88 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\Game3D.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{CFBB6799-8482-439E-8AC2-7A6564B74C52}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Game3D.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\Game3DEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{54226D58-FA3F-4CAB-8602-DC600079D6EB}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\Game3D">
-      <UniqueIdentifier>{FDBE4CED-2757-497E-B69F-916ABF0B5292}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\Game3D\BattleTankGameMod.cpp">
-      <Filter>Source\Game3D</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Game3D\BattleTankGameMod.h">
-      <Filter>Source\Game3D</Filter>
-    </ClInclude>
-    <None Include="..\..\Source\Game3D\Game3D.Build.cs">
-      <Filter>Source\Game3D</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\Game3D\Game3D.cpp">
-      <Filter>Source\Game3D</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Game3D\Game3D.h">
-      <Filter>Source\Game3D</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Game3D\Game3DGameModeBase.cpp">
-      <Filter>Source\Game3D</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Game3D\Game3DGameModeBase.h">
-      <Filter>Source\Game3D</Filter>
-    </ClInclude>
-    <Filter Include="Source\Game3D\Private">
-      <UniqueIdentifier>{DDB75E10-009F-46D2-AF9D-9E2EE12CDB81}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\Game3D\Private\Tank.cpp">
-      <Filter>Source\Game3D\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Game3D\Private\TankAIController.cpp">
-      <Filter>Source\Game3D\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Game3D\Private\TankPlayerController.cpp">
-      <Filter>Source\Game3D\Private</Filter>
-    </ClCompile>
-    <Filter Include="Source\Game3D\Public">
-      <UniqueIdentifier>{ABAE6CB6-0E5F-4A2A-A30C-26CA4A6E497D}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\Game3D\Public\Tank.h">
-      <Filter>Source\Game3D\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Game3D\Public\TankAIController.h">
-      <Filter>Source\Game3D\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Game3D\Public\TankPlayerController.h">
-      <Filter>Source\Game3D\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Game3D\Public\TankAimingComponent.h">
-      <Filter>Source\Game3D\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Game3D\Private\TankAimingComponent.cpp">
-      <Filter>Source\Game3D\Private</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Game3D.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DD78E8A2-FA52-427B-8305-47C3FAE8A23E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Game3D.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Game3DEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{B69F25A0-FAC7-450B-8939-B384AEEB3629}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Game3D">
+			<UniqueIdentifier>{8E702E23-795C-46A8-928F-22A11C52D380}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Game3D\BattleTankGameMod.cpp">
+			<Filter>Source\Game3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game3D\BattleTankGameMod.h">
+			<Filter>Source\Game3D</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Game3D\Game3D.Build.cs">
+			<Filter>Source\Game3D</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Game3D\Game3D.cpp">
+			<Filter>Source\Game3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game3D\Game3D.h">
+			<Filter>Source\Game3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Game3D\Game3DGameModeBase.cpp">
+			<Filter>Source\Game3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Game3D\Game3DGameModeBase.h">
+			<Filter>Source\Game3D</Filter>
+		</ClInclude >
+		<Filter Include="Source\Game3D\Private">
+			<UniqueIdentifier>{AF6D34DE-D75E-4B5B-A108-760DAC13FEDC}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Game3D\Private\Tank.cpp">
+			<Filter>Source\Game3D\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game3D\Private\TankAIController.cpp">
+			<Filter>Source\Game3D\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game3D\Private\TankAimingComponent.cpp">
+			<Filter>Source\Game3D\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Game3D\Private\TankPlayerController.cpp">
+			<Filter>Source\Game3D\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Game3D\Public">
+			<UniqueIdentifier>{97A01AA8-74C7-45B1-9753-A96D586B6686}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Game3D\Public\Tank.h">
+			<Filter>Source\Game3D\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game3D\Public\TankAIController.h">
+			<Filter>Source\Game3D\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game3D\Public\TankAimingComponent.h">
+			<Filter>Source\Game3D\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Game3D\Public\TankPlayerController.h">
+			<Filter>Source\Game3D\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
